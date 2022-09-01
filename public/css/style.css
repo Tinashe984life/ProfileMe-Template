@@ -1,0 +1,59 @@
+.left{
+    width: 50%;
+    padding-left: 40px;
+}
+
+.main-d-header-photos{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 600px;
+}
+
+.header-img-container{
+    animation-name: scroll;
+    animation-duration: 80s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes scroll{
+    0% {
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-600%);
+    }
+}
+
+.header-img{
+    width: 640px;
+    height: auto;
+}
+
+.main-d-header{
+    display: flex;
+    background-image: url('/images/pixels.png');
+    width: 600px;
+}
+
+.profile-pic{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    top: -20px;
+}
+
+.headshot{
+    position: relative;
+    width: 240px;
+    height: auto;
+    left: -50px;
+    top: -50px;
+}
+
+.name-title{
+    margin-left: 20px;
+    color: whitesmoke;
+}
