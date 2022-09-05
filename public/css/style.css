@@ -1,6 +1,15 @@
+.container{
+    display: flex;
+}
 .left{
     width: 50%;
     padding-left: 40px;
+    background-color: gray;
+}
+.right{
+    width: 50%;
+    
+    background-color: green;
 }
 
 .main-d-header-photos{
@@ -43,6 +52,21 @@
     height: 140px;
     overflow: hidden;
     top: -20px;
+    border-radius: 5%;
+}
+
+.contacts-list{
+    position: relative;
+    list-style: none;
+    display: flex;
+    padding-left: 35px;
+}
+
+.contacts-list li{
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 200px;
+    padding: 20px;
 }
 
 .headshot{
@@ -57,3 +81,121 @@
     margin-left: 20px;
     color: whitesmoke;
 }
+
+.info{
+    margin-top: 30px;
+}
+
+.info li{
+    position: relative;
+    list-style: none;
+}
+
+.label{
+    display: flex;
+}
+
+.about-me{
+    width: 600px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    border: 0.5px solid black;
+}
+
+.label-text{
+    margin-left: 20px;
+}
+
+.dd{
+    position: relative;
+    margin-top: 15px;
+    padding: 0px;
+    margin-left: 360px;
+    border: transparent;
+}
+
+.dd :hover{
+    cursor: pointer;
+}
+
+.bi-chevron-down{
+    width: 30px;
+}
+
+.bi-info-circle-fill{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.about-me-content{
+    position: absolute;
+    background-color: blue;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+}
+
+.amc{
+    position: relative;
+    visibility: visible;
+    animation-name: dropdown;
+    animation-duration: 200ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes dropdown {
+    from{
+        opacity: 0;
+        top: -100px;
+    }
+    to{
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+@keyframes dropup {
+    from{
+        opacity: 1;
+        top: 0px;
+    }
+    to{
+        opacity: 0;
+        top: -100px;
+    }
+}
+
+.label{
+    width: 600px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    border: 0.5px solid black;
+}
+
+.dd2{
+    position: relative;
+    margin-top: 15px;
+    padding: 0px;
+    margin-left: 285px;
+    border: transparent;
+}
+
+.dd2 :hover{
+    cursor: pointer;
+}
+
+.dd3{
+    position: relative;
+    margin-top: 15px;
+    padding: 0px;
+    margin-left: 380px;
+}
+
+.bi-briefcase-fill{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+
