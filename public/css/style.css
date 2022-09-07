@@ -52,6 +52,32 @@ body{
     width: 600px;
 }
 
+.more-contacts{
+    position: absolute;
+    display: flex;
+    top: 270px;
+    right: 30px;
+}
+
+.more-contacts a{
+    background-color: purple;
+    padding: 10px;
+    border-radius: 50%;
+    width: 35px;
+    margin: 5px;
+    color: whitesmoke;
+}
+
+.bi-chat-square{
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.bi-whatsapp{
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
 .profile-pic{
     position: relative;
     width: 140px;
@@ -262,7 +288,7 @@ body{
     position: relative;
     margin-top: 15px;
     padding: 0px;
-    margin-left: 375px;
+    margin-left: 360px;
     border: transparent;
 }
 
@@ -270,7 +296,25 @@ body{
     cursor: pointer;
 }
 
+.dd4{
+    position: relative;
+    margin-top: 15px;
+    padding: 0px;
+    margin-left: 355px;
+    border: transparent;
+}
+
+.dd4 :hover{
+    cursor: pointer;
+}
+
 .bi-briefcase-fill{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.bi-book-fill{
     position: relative;
     margin-top: 15px;
     margin-left: 20px;
