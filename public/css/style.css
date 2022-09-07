@@ -1,15 +1,21 @@
+body{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 .container{
     display: flex;
 }
 .left{
-    width: 50%;
-    padding-left: 40px;
-    background-color: gray;
+    width: 600px;
+    height: 760px;
+    margin-left: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 .right{
-    width: 50%;
-    
-    background-color: green;
+    position: relative;
+    width: 610px;
+    margin-left: 60px;
 }
 
 .main-d-header-photos{
@@ -58,15 +64,53 @@
 .contacts-list{
     position: relative;
     list-style: none;
-    display: flex;
-    padding-left: 35px;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding-left: 10px;
+    width: 580px;
 }
 
 .contacts-list li{
-    margin: 10px;
+    display: flex;
     border: 1px solid rgba(0, 0, 0, 0.5);
-    width: 200px;
-    padding: 20px;
+    padding: 10px;
+}
+
+.contacts-list a{
+    text-decoration: none;
+    color: black;
+}
+
+.cd{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.gh{
+    margin: 20px;
+}
+
+.bi-phone{
+    position: relative;
+    margin-top: 15px;
+}
+
+.bi-envelope{
+    position: relative;
+    margin-top: 15px;
+}
+
+.bi-globe2{
+    position: relative;
+    margin-top: 15px;
+}
+
+.bi-github{
+    position: relative;
+    margin-top: 15px;
 }
 
 .headshot{
@@ -84,11 +128,39 @@
 
 .info{
     margin-top: 30px;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 .info li{
     position: relative;
     list-style: none;
+}
+
+.li-container{
+    width: 600px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.li-content{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.li-content b{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+
+.lic{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 13%;
 }
 
 .label{
@@ -130,6 +202,7 @@
 
 .about-me-content{
     position: absolute;
+    width: 600px;
     background-color: blue;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     visibility: hidden;
@@ -189,7 +262,12 @@
     position: relative;
     margin-top: 15px;
     padding: 0px;
-    margin-left: 380px;
+    margin-left: 375px;
+    border: transparent;
+}
+
+.dd3 :hover{
+    cursor: pointer;
 }
 
 .bi-briefcase-fill{
@@ -198,4 +276,8 @@
     margin-left: 20px;
 }
 
-
+.bi-easel2-fill{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 20px;
+}
